@@ -1,4 +1,4 @@
-# vux-ui
+# mint-ui
 
 > A Vue.js project
 

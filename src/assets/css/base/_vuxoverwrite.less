@@ -1,0 +1,35 @@
+/************** form *****************/
+.weui-btn{
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    
+    &.weui-btn_disabled {
+        opacity: .6;
+        color: #fff;
+    }
+}
+.vux-x-input .weui-btn + .weui-btn {
+    margin-top: 0;
+}
+
+.form-group-wrap {
+    margin-bottom: 2rem;
+
+    .weui-cells__title {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1rem;
+        color: #747474;
+    }
+
+    .weui-cells {
+        &::before{
+            border-top: 0;
+        }
+        .vux-x-input {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    
+}
